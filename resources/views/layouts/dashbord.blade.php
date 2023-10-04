@@ -295,10 +295,10 @@
     <script src="{{ asset('dashbord_asset/vendor/peity/jquery.peity.min.js') }}"></script>
 
 	<!-- Apex Chart -->
-	<script src="{{ asset('dashbord_asset/vendor/apexchart/apexchart.js') }}"></script>
+	{{-- <script src="{{ asset('dashbord_asset/vendor/apexchart/apexchart.js') }}"></script> --}}
 
 	<!-- Dashboard 1 -->
-	<script src="{{ asset('dashbord_asset/js/dashboard/workout-statistic.js') }}"></script>
+	{{-- <script src="{{ asset('dashbord_asset/js/dashboard/workout-statistic.js') }}"></script> --}}
 
     @yield('footer_scrip')
 </body>
