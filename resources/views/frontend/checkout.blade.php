@@ -162,7 +162,7 @@
                         <h6>Delivery Location</h6>
                         <ul class="no-ul-list">
                             <li>
-                                <input id="c1" class="radio-custom delivery" name="charge" type="radio" value="60">
+                                <input id="c1" class="radio-custom delivery" name="charge" type="radio" value="60" checked="">
                                 <label for="c1" class="radio-custom-label">Inside City</label>
                             </li>
                             <li>
@@ -180,7 +180,7 @@
                         <h6>Select Payment Method</h6>
                         <ul class="no-ul-list">
                             <li>
-                                <input id="c3" value="1" class="radio-custom" name="payment_method" type="radio">
+                                <input id="c3" value="1" class="radio-custom" name="payment_method" type="radio" checked="">
                                 <label for="c3" class="radio-custom-label">Cash on Delivery</label>
                             </li>
                             @error('payment_method')
